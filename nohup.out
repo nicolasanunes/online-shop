@@ -602,3 +602,135 @@ MissingDriverError: Wrong driver: "undefined" given. Supported drivers are: "aur
 [32m[Nest] 14001  - [39m24/01/2024, 22:36:54 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/user, POST} route[39m[38;5;3m +4ms[39m
 [32m[Nest] 14001  - [39m24/01/2024, 22:36:54 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/user, GET} route[39m[38;5;3m +0ms[39m
 [32m[Nest] 14001  - [39m24/01/2024, 22:36:54 [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +3ms[39m
+
+> online-shop-backend@0.0.1 start:dev
+> nest start --watch
+
+c[[90m22:40:52[0m] Starting compilation in watch mode...
+
+[[90m22:40:58[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 14881  - [39m24/01/2024, 22:40:59 [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 14881  - [39m24/01/2024, 22:40:59 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +55ms[39m
+[32m[Nest] 14881  - [39m24/01/2024, 22:40:59 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 14881  - [39m24/01/2024, 22:40:59 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 14881  - [39m24/01/2024, 22:40:59 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 14881  - [39m24/01/2024, 22:40:59 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmCoreModule dependencies initialized[39m[38;5;3m +153ms[39m
+[32m[Nest] 14881  - [39m24/01/2024, 22:40:59 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 14881  - [39m24/01/2024, 22:40:59 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mUserModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 14881  - [39m24/01/2024, 22:40:59 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mUserController {/user}:[39m[38;5;3m +15ms[39m
+[32m[Nest] 14881  - [39m24/01/2024, 22:40:59 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/user, POST} route[39m[38;5;3m +5ms[39m
+[32m[Nest] 14881  - [39m24/01/2024, 22:40:59 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/user, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 14881  - [39m24/01/2024, 22:40:59 [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +5ms[39m
+c[[90m22:47:28[0m] File change detected. Starting incremental compilation...
+
+[[90m22:47:28[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 16729  - [39m24/01/2024, 22:47:29 [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 16729  - [39m24/01/2024, 22:47:29 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +44ms[39m
+[32m[Nest] 16729  - [39m24/01/2024, 22:47:29 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 16729  - [39m24/01/2024, 22:47:29 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 16729  - [39m24/01/2024, 22:47:29 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 16729  - [39m24/01/2024, 22:47:29 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmCoreModule dependencies initialized[39m[38;5;3m +107ms[39m
+[32m[Nest] 16729  - [39m24/01/2024, 22:47:29 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 16729  - [39m24/01/2024, 22:47:29 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mUserModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 16729  - [39m24/01/2024, 22:47:29 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mUserController {/user}:[39m[38;5;3m +11ms[39m
+[32m[Nest] 16729  - [39m24/01/2024, 22:47:29 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/user, POST} route[39m[38;5;3m +4ms[39m
+[32m[Nest] 16729  - [39m24/01/2024, 22:47:29 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/user, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 16729  - [39m24/01/2024, 22:47:29 [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +2ms[39m
+c[[90m22:47:45[0m] File change detected. Starting incremental compilation...
+
+[[90m22:47:45[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 16831  - [39m24/01/2024, 22:47:46 [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 16831  - [39m24/01/2024, 22:47:46 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +30ms[39m
+[32m[Nest] 16831  - [39m24/01/2024, 22:47:46 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 16831  - [39m24/01/2024, 22:47:46 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 16831  - [39m24/01/2024, 22:47:46 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 16831  - [39m24/01/2024, 22:47:47 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmCoreModule dependencies initialized[39m[38;5;3m +99ms[39m
+[32m[Nest] 16831  - [39m24/01/2024, 22:47:47 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 16831  - [39m24/01/2024, 22:47:47 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mUserModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 16831  - [39m24/01/2024, 22:47:47 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mUserController {/user}:[39m[38;5;3m +10ms[39m
+[32m[Nest] 16831  - [39m24/01/2024, 22:47:47 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/user, POST} route[39m[38;5;3m +3ms[39m
+[32m[Nest] 16831  - [39m24/01/2024, 22:47:47 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/user, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 16831  - [39m24/01/2024, 22:47:47 [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +3ms[39m
+c[[90m22:48:45[0m] File change detected. Starting incremental compilation...
+
+[[90m22:48:46[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 17016  - [39m24/01/2024, 22:48:47 [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 17016  - [39m24/01/2024, 22:48:47 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +32ms[39m
+[32m[Nest] 17016  - [39m24/01/2024, 22:48:47 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 17016  - [39m24/01/2024, 22:48:47 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 17016  - [39m24/01/2024, 22:48:47 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 17016  - [39m24/01/2024, 22:48:47 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmCoreModule dependencies initialized[39m[38;5;3m +124ms[39m
+[32m[Nest] 17016  - [39m24/01/2024, 22:48:47 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 17016  - [39m24/01/2024, 22:48:47 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mUserModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 17016  - [39m24/01/2024, 22:48:47 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mUserController {/user}:[39m[38;5;3m +10ms[39m
+[32m[Nest] 17016  - [39m24/01/2024, 22:48:47 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/user, POST} route[39m[38;5;3m +3ms[39m
+[32m[Nest] 17016  - [39m24/01/2024, 22:48:47 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/user, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 17016  - [39m24/01/2024, 22:48:47 [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +3ms[39m
+c[[90m22:48:52[0m] File change detected. Starting incremental compilation...
+
+[[90m22:48:52[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 17037  - [39m24/01/2024, 22:48:54 [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 17037  - [39m24/01/2024, 22:48:54 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +47ms[39m
+[32m[Nest] 17037  - [39m24/01/2024, 22:48:54 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 17037  - [39m24/01/2024, 22:48:54 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 17037  - [39m24/01/2024, 22:48:54 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 17037  - [39m24/01/2024, 22:48:54 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmCoreModule dependencies initialized[39m[38;5;3m +129ms[39m
+[32m[Nest] 17037  - [39m24/01/2024, 22:48:54 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 17037  - [39m24/01/2024, 22:48:54 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mUserModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 17037  - [39m24/01/2024, 22:48:54 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mUserController {/user}:[39m[38;5;3m +14ms[39m
+[32m[Nest] 17037  - [39m24/01/2024, 22:48:54 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/user, POST} route[39m[38;5;3m +4ms[39m
+[32m[Nest] 17037  - [39m24/01/2024, 22:48:54 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/user, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 17037  - [39m24/01/2024, 22:48:54 [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +3ms[39m
+c[[90m22:53:13[0m] File change detected. Starting incremental compilation...
+
+[[90m22:53:13[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 18150  - [39m24/01/2024, 22:53:14 [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 18150  - [39m24/01/2024, 22:53:14 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +45ms[39m
+[32m[Nest] 18150  - [39m24/01/2024, 22:53:14 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +2ms[39m
+[32m[Nest] 18150  - [39m24/01/2024, 22:53:14 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 18150  - [39m24/01/2024, 22:53:14 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 18150  - [39m24/01/2024, 22:53:14 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmCoreModule dependencies initialized[39m[38;5;3m +154ms[39m
+[32m[Nest] 18150  - [39m24/01/2024, 22:53:14 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 18150  - [39m24/01/2024, 22:53:14 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mUserModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 18150  - [39m24/01/2024, 22:53:14 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mUserController {/user}:[39m[38;5;3m +15ms[39m
+[32m[Nest] 18150  - [39m24/01/2024, 22:53:14 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/user, POST} route[39m[38;5;3m +4ms[39m
+[32m[Nest] 18150  - [39m24/01/2024, 22:53:14 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/user, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 18150  - [39m24/01/2024, 22:53:14 [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +4ms[39m
+c[[90m22:53:24[0m] File change detected. Starting incremental compilation...
+
+[[90m22:53:24[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 18227  - [39m24/01/2024, 22:53:26 [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 18227  - [39m24/01/2024, 22:53:26 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +148ms[39m
+[32m[Nest] 18227  - [39m24/01/2024, 22:53:26 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 18227  - [39m24/01/2024, 22:53:26 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 18227  - [39m24/01/2024, 22:53:26 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 18227  - [39m24/01/2024, 22:53:27 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmCoreModule dependencies initialized[39m[38;5;3m +140ms[39m
+[32m[Nest] 18227  - [39m24/01/2024, 22:53:27 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 18227  - [39m24/01/2024, 22:53:27 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mUserModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 18227  - [39m24/01/2024, 22:53:27 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mUserController {/user}:[39m[38;5;3m +30ms[39m
+[32m[Nest] 18227  - [39m24/01/2024, 22:53:27 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/user, POST} route[39m[38;5;3m +14ms[39m
+[32m[Nest] 18227  - [39m24/01/2024, 22:53:27 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/user, GET} route[39m[38;5;3m +3ms[39m
+[32m[Nest] 18227  - [39m24/01/2024, 22:53:27 [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +11ms[39m
+c[[90m22:54:30[0m] File change detected. Starting incremental compilation...
+
+[[90m22:54:30[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 18527  - [39m24/01/2024, 22:54:32 [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 18527  - [39m24/01/2024, 22:54:32 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +69ms[39m
+[32m[Nest] 18527  - [39m24/01/2024, 22:54:32 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 18527  - [39m24/01/2024, 22:54:32 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 18527  - [39m24/01/2024, 22:54:32 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +1ms[39m
+
+/home/nicolas/Documentos/Projetos/online-shop-backend/src/driver/postgres/PostgresQueryRunner.ts:331
+            throw new QueryFailedError(query, parameters, err)
+                  ^
+QueryFailedError: relation "user" already exists
+    at PostgresQueryRunner.query (/home/nicolas/Documentos/Projetos/online-shop-backend/src/driver/postgres/PostgresQueryRunner.ts:331:19)
+    at processTicksAndRejections (node:internal/process/task_queues:95:5)
