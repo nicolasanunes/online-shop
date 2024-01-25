@@ -1,0 +1,309 @@
+
+> online-shop-backend@0.0.1 start:dev
+> nest start --watch
+
+c[[90m22:09:34[0m] Starting compilation in watch mode...
+
+[[90m22:09:36[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 8086  - [39m24/01/2024, 22:09:36 [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 8086  - [39m24/01/2024, 22:09:36 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +9ms[39m
+[32m[Nest] 8086  - [39m24/01/2024, 22:09:36 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mUserModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 8086  - [39m24/01/2024, 22:09:36 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mUserController {/user}:[39m[38;5;3m +9ms[39m
+[32m[Nest] 8086  - [39m24/01/2024, 22:09:36 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/user, POST} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 8086  - [39m24/01/2024, 22:09:36 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/user, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 8086  - [39m24/01/2024, 22:09:36 [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +1ms[39m
+c[[90m22:09:55[0m] File change detected. Starting incremental compilation...
+
+[[90m22:09:55[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 8173  - [39m24/01/2024, 22:09:56 [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 8173  - [39m24/01/2024, 22:09:56 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +23ms[39m
+[32m[Nest] 8173  - [39m24/01/2024, 22:09:56 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mUserModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 8173  - [39m24/01/2024, 22:09:56 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mUserController {/user}:[39m[38;5;3m +11ms[39m
+[32m[Nest] 8173  - [39m24/01/2024, 22:09:56 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/user, POST} route[39m[38;5;3m +6ms[39m
+[32m[Nest] 8173  - [39m24/01/2024, 22:09:56 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/user, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 8173  - [39m24/01/2024, 22:09:56 [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +5ms[39m
+c[[90m22:12:28[0m] File change detected. Starting incremental compilation...
+
+[[90m22:12:28[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 8646  - [39m24/01/2024, 22:12:29 [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 8646  - [39m24/01/2024, 22:12:29 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +28ms[39m
+[32m[Nest] 8646  - [39m24/01/2024, 22:12:29 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 8646  - [39m24/01/2024, 22:12:29 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mUserModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 8646  - [39m24/01/2024, 22:12:29 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 8646  - [39m24/01/2024, 22:12:29 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mUserController {/user}:[39m[38;5;3m +28ms[39m
+[32m[Nest] 8646  - [39m24/01/2024, 22:12:29 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/user, POST} route[39m[38;5;3m +4ms[39m
+[32m[Nest] 8646  - [39m24/01/2024, 22:12:29 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/user, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 8646  - [39m24/01/2024, 22:12:29 [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +3ms[39m
+c[[90m22:12:56[0m] File change detected. Starting incremental compilation...
+
+[[90m22:12:56[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 8774  - [39m24/01/2024, 22:12:57 [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 8774  - [39m24/01/2024, 22:12:57 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +18ms[39m
+[32m[Nest] 8774  - [39m24/01/2024, 22:12:57 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 8774  - [39m24/01/2024, 22:12:57 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mUserModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 8774  - [39m24/01/2024, 22:12:57 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 8774  - [39m24/01/2024, 22:12:57 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mUserController {/user}:[39m[38;5;3m +14ms[39m
+[32m[Nest] 8774  - [39m24/01/2024, 22:12:57 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/user, POST} route[39m[38;5;3m +3ms[39m
+[32m[Nest] 8774  - [39m24/01/2024, 22:12:57 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/user, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 8774  - [39m24/01/2024, 22:12:57 [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +6ms[39m
+c[[90m22:15:35[0m] File change detected. Starting incremental compilation...
+
+[[90m22:15:36[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 9239  - [39m24/01/2024, 22:15:37 [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 9239  - [39m24/01/2024, 22:15:37 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +44ms[39m
+[32m[Nest] 9239  - [39m24/01/2024, 22:15:37 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +2ms[39m
+[32m[Nest] 9239  - [39m24/01/2024, 22:15:37 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mUserModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 9239  - [39m24/01/2024, 22:15:37 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 9239  - [39m24/01/2024, 22:15:37 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mUserController {/user}:[39m[38;5;3m +31ms[39m
+[32m[Nest] 9239  - [39m24/01/2024, 22:15:37 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/user, POST} route[39m[38;5;3m +9ms[39m
+[32m[Nest] 9239  - [39m24/01/2024, 22:15:37 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/user, GET} route[39m[38;5;3m +2ms[39m
+[32m[Nest] 9239  - [39m24/01/2024, 22:15:37 [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +7ms[39m
+c[[90m22:15:39[0m] File change detected. Starting incremental compilation...
+
+[[90m22:15:39[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 9275  - [39m24/01/2024, 22:15:40 [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 9275  - [39m24/01/2024, 22:15:40 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +12ms[39m
+[32m[Nest] 9275  - [39m24/01/2024, 22:15:40 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 9275  - [39m24/01/2024, 22:15:40 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mUserModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 9275  - [39m24/01/2024, 22:15:40 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 9275  - [39m24/01/2024, 22:15:40 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mUserController {/user}:[39m[38;5;3m +9ms[39m
+[32m[Nest] 9275  - [39m24/01/2024, 22:15:40 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/user, POST} route[39m[38;5;3m +3ms[39m
+[32m[Nest] 9275  - [39m24/01/2024, 22:15:40 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/user, GET} route[39m[38;5;3m +0ms[39m
+[32m[Nest] 9275  - [39m24/01/2024, 22:15:40 [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +2ms[39m
+c[[90m22:17:08[0m] File change detected. Starting incremental compilation...
+
+[96msrc/app.module.ts[0m:[93m18[0m:[93m5[0m - [91merror[0m[90m TS1005: [0m',' expected.
+
+[7m18[0m     UserModule,
+[7m  [0m [91m    ~~~~~~~~~~[0m
+
+[[90m22:17:09[0m] Found 1 error. Watching for file changes.
+
+c[[90m22:17:20[0m] File change detected. Starting incremental compilation...
+
+[[90m22:17:20[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 9590  - [39m24/01/2024, 22:17:20 [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[31m[Nest] 9590  - [39m24/01/2024, 22:17:20 [31m  ERROR[39m [38;5;3m[TypeOrmModule] [39m[31mUnable to connect to the database. Retrying (1)...[39m
+MissingDriverError: Wrong driver: "undefined" given. Supported drivers are: "aurora-mysql", "aurora-postgres", "better-sqlite3", "capacitor", "cockroachdb", "cordova", "expo", "mariadb", "mongodb", "mssql", "mysql", "nativescript", "oracle", "postgres", "react-native", "sap", "sqlite", "sqljs", "spanner".
+    at DriverFactory.create (/home/nicolas/Documentos/Projetos/online-shop-backend/src/driver/DriverFactory.ts:72:23)
+    at new DataSource (/home/nicolas/Documentos/Projetos/online-shop-backend/src/data-source/DataSource.ts:149:43)
+    at createTypeormDataSource (/home/nicolas/Documentos/Projetos/online-shop-backend/node_modules/@nestjs/typeorm/dist/typeorm-core.module.js:164:23)
+    at /home/nicolas/Documentos/Projetos/online-shop-backend/node_modules/@nestjs/typeorm/dist/typeorm-core.module.js:169:36
+    at Observable._subscribe (/home/nicolas/Documentos/Projetos/online-shop-backend/node_modules/rxjs/src/internal/observable/defer.ts:55:15)
+    at Observable._trySubscribe (/home/nicolas/Documentos/Projetos/online-shop-backend/node_modules/rxjs/src/internal/Observable.ts:244:19)
+    at /home/nicolas/Documentos/Projetos/online-shop-backend/node_modules/rxjs/src/internal/Observable.ts:234:18
+    at Object.errorContext (/home/nicolas/Documentos/Projetos/online-shop-backend/node_modules/rxjs/src/internal/util/errorContext.ts:29:5)
+    at Observable.subscribe (/home/nicolas/Documentos/Projetos/online-shop-backend/node_modules/rxjs/src/internal/Observable.ts:220:5)
+    at subscribeForRetryWhen (/home/nicolas/Documentos/Projetos/online-shop-backend/node_modules/rxjs/src/internal/operators/retryWhen.ts:74:25)
+[32m[Nest] 9590  - [39m24/01/2024, 22:17:20 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +3ms[39m
+[32m[Nest] 9590  - [39m24/01/2024, 22:17:20 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 9590  - [39m24/01/2024, 22:17:20 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 9590  - [39m24/01/2024, 22:17:20 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mUserModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 9590  - [39m24/01/2024, 22:17:20 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[31m[Nest] 9590  - [39m24/01/2024, 22:17:23 [31m  ERROR[39m [38;5;3m[TypeOrmModule] [39m[31mUnable to connect to the database. Retrying (2)...[39m
+MissingDriverError: Wrong driver: "undefined" given. Supported drivers are: "aurora-mysql", "aurora-postgres", "better-sqlite3", "capacitor", "cockroachdb", "cordova", "expo", "mariadb", "mongodb", "mssql", "mysql", "nativescript", "oracle", "postgres", "react-native", "sap", "sqlite", "sqljs", "spanner".
+    at DriverFactory.create (/home/nicolas/Documentos/Projetos/online-shop-backend/src/driver/DriverFactory.ts:72:23)
+    at new DataSource (/home/nicolas/Documentos/Projetos/online-shop-backend/src/data-source/DataSource.ts:149:43)
+    at createTypeormDataSource (/home/nicolas/Documentos/Projetos/online-shop-backend/node_modules/@nestjs/typeorm/dist/typeorm-core.module.js:164:23)
+    at /home/nicolas/Documentos/Projetos/online-shop-backend/node_modules/@nestjs/typeorm/dist/typeorm-core.module.js:169:36
+    at Observable._subscribe (/home/nicolas/Documentos/Projetos/online-shop-backend/node_modules/rxjs/src/internal/observable/defer.ts:55:15)
+    at Observable._trySubscribe (/home/nicolas/Documentos/Projetos/online-shop-backend/node_modules/rxjs/src/internal/Observable.ts:244:19)
+    at /home/nicolas/Documentos/Projetos/online-shop-backend/node_modules/rxjs/src/internal/Observable.ts:234:18
+    at Object.errorContext (/home/nicolas/Documentos/Projetos/online-shop-backend/node_modules/rxjs/src/internal/util/errorContext.ts:29:5)
+    at Observable.subscribe (/home/nicolas/Documentos/Projetos/online-shop-backend/node_modules/rxjs/src/internal/Observable.ts:220:5)
+    at subscribeForRetryWhen (/home/nicolas/Documentos/Projetos/online-shop-backend/node_modules/rxjs/src/internal/operators/retryWhen.ts:74:25)
+[31m[Nest] 9590  - [39m24/01/2024, 22:17:26 [31m  ERROR[39m [38;5;3m[TypeOrmModule] [39m[31mUnable to connect to the database. Retrying (3)...[39m
+MissingDriverError: Wrong driver: "undefined" given. Supported drivers are: "aurora-mysql", "aurora-postgres", "better-sqlite3", "capacitor", "cockroachdb", "cordova", "expo", "mariadb", "mongodb", "mssql", "mysql", "nativescript", "oracle", "postgres", "react-native", "sap", "sqlite", "sqljs", "spanner".
+    at DriverFactory.create (/home/nicolas/Documentos/Projetos/online-shop-backend/src/driver/DriverFactory.ts:72:23)
+    at new DataSource (/home/nicolas/Documentos/Projetos/online-shop-backend/src/data-source/DataSource.ts:149:43)
+    at createTypeormDataSource (/home/nicolas/Documentos/Projetos/online-shop-backend/node_modules/@nestjs/typeorm/dist/typeorm-core.module.js:164:23)
+    at /home/nicolas/Documentos/Projetos/online-shop-backend/node_modules/@nestjs/typeorm/dist/typeorm-core.module.js:169:36
+    at Observable._subscribe (/home/nicolas/Documentos/Projetos/online-shop-backend/node_modules/rxjs/src/internal/observable/defer.ts:55:15)
+    at Observable._trySubscribe (/home/nicolas/Documentos/Projetos/online-shop-backend/node_modules/rxjs/src/internal/Observable.ts:244:19)
+    at /home/nicolas/Documentos/Projetos/online-shop-backend/node_modules/rxjs/src/internal/Observable.ts:234:18
+    at Object.errorContext (/home/nicolas/Documentos/Projetos/online-shop-backend/node_modules/rxjs/src/internal/util/errorContext.ts:29:5)
+    at Observable.subscribe (/home/nicolas/Documentos/Projetos/online-shop-backend/node_modules/rxjs/src/internal/Observable.ts:220:5)
+    at subscribeForRetryWhen (/home/nicolas/Documentos/Projetos/online-shop-backend/node_modules/rxjs/src/internal/operators/retryWhen.ts:74:25)
+[31m[Nest] 9590  - [39m24/01/2024, 22:17:29 [31m  ERROR[39m [38;5;3m[TypeOrmModule] [39m[31mUnable to connect to the database. Retrying (4)...[39m
+MissingDriverError: Wrong driver: "undefined" given. Supported drivers are: "aurora-mysql", "aurora-postgres", "better-sqlite3", "capacitor", "cockroachdb", "cordova", "expo", "mariadb", "mongodb", "mssql", "mysql", "nativescript", "oracle", "postgres", "react-native", "sap", "sqlite", "sqljs", "spanner".
+    at DriverFactory.create (/home/nicolas/Documentos/Projetos/online-shop-backend/src/driver/DriverFactory.ts:72:23)
+    at new DataSource (/home/nicolas/Documentos/Projetos/online-shop-backend/src/data-source/DataSource.ts:149:43)
+    at createTypeormDataSource (/home/nicolas/Documentos/Projetos/online-shop-backend/node_modules/@nestjs/typeorm/dist/typeorm-core.module.js:164:23)
+    at /home/nicolas/Documentos/Projetos/online-shop-backend/node_modules/@nestjs/typeorm/dist/typeorm-core.module.js:169:36
+    at Observable._subscribe (/home/nicolas/Documentos/Projetos/online-shop-backend/node_modules/rxjs/src/internal/observable/defer.ts:55:15)
+    at Observable._trySubscribe (/home/nicolas/Documentos/Projetos/online-shop-backend/node_modules/rxjs/src/internal/Observable.ts:244:19)
+    at /home/nicolas/Documentos/Projetos/online-shop-backend/node_modules/rxjs/src/internal/Observable.ts:234:18
+    at Object.errorContext (/home/nicolas/Documentos/Projetos/online-shop-backend/node_modules/rxjs/src/internal/util/errorContext.ts:29:5)
+    at Observable.subscribe (/home/nicolas/Documentos/Projetos/online-shop-backend/node_modules/rxjs/src/internal/Observable.ts:220:5)
+    at subscribeForRetryWhen (/home/nicolas/Documentos/Projetos/online-shop-backend/node_modules/rxjs/src/internal/operators/retryWhen.ts:74:25)
+c[[90m22:17:32[0m] File change detected. Starting incremental compilation...
+
+[[90m22:17:32[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 9637  - [39m24/01/2024, 22:17:34 [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[31m[Nest] 9637  - [39m24/01/2024, 22:17:34 [31m  ERROR[39m [38;5;3m[TypeOrmModule] [39m[31mUnable to connect to the database. Retrying (1)...[39m
+MissingDriverError: Wrong driver: "undefined" given. Supported drivers are: "aurora-mysql", "aurora-postgres", "better-sqlite3", "capacitor", "cockroachdb", "cordova", "expo", "mariadb", "mongodb", "mssql", "mysql", "nativescript", "oracle", "postgres", "react-native", "sap", "sqlite", "sqljs", "spanner".
+    at DriverFactory.create (/home/nicolas/Documentos/Projetos/online-shop-backend/src/driver/DriverFactory.ts:72:23)
+    at new DataSource (/home/nicolas/Documentos/Projetos/online-shop-backend/src/data-source/DataSource.ts:149:43)
+    at createTypeormDataSource (/home/nicolas/Documentos/Projetos/online-shop-backend/node_modules/@nestjs/typeorm/dist/typeorm-core.module.js:164:23)
+    at /home/nicolas/Documentos/Projetos/online-shop-backend/node_modules/@nestjs/typeorm/dist/typeorm-core.module.js:169:36
+    at Observable._subscribe (/home/nicolas/Documentos/Projetos/online-shop-backend/node_modules/rxjs/src/internal/observable/defer.ts:55:15)
+    at Observable._trySubscribe (/home/nicolas/Documentos/Projetos/online-shop-backend/node_modules/rxjs/src/internal/Observable.ts:244:19)
+    at /home/nicolas/Documentos/Projetos/online-shop-backend/node_modules/rxjs/src/internal/Observable.ts:234:18
+    at Object.errorContext (/home/nicolas/Documentos/Projetos/online-shop-backend/node_modules/rxjs/src/internal/util/errorContext.ts:29:5)
+    at Observable.subscribe (/home/nicolas/Documentos/Projetos/online-shop-backend/node_modules/rxjs/src/internal/Observable.ts:220:5)
+    at subscribeForRetryWhen (/home/nicolas/Documentos/Projetos/online-shop-backend/node_modules/rxjs/src/internal/operators/retryWhen.ts:74:25)
+[32m[Nest] 9637  - [39m24/01/2024, 22:17:34 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +4ms[39m
+[32m[Nest] 9637  - [39m24/01/2024, 22:17:34 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 9637  - [39m24/01/2024, 22:17:34 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 9637  - [39m24/01/2024, 22:17:34 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mUserModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 9637  - [39m24/01/2024, 22:17:34 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[31m[Nest] 9637  - [39m24/01/2024, 22:17:37 [31m  ERROR[39m [38;5;3m[TypeOrmModule] [39m[31mUnable to connect to the database. Retrying (2)...[39m
+MissingDriverError: Wrong driver: "undefined" given. Supported drivers are: "aurora-mysql", "aurora-postgres", "better-sqlite3", "capacitor", "cockroachdb", "cordova", "expo", "mariadb", "mongodb", "mssql", "mysql", "nativescript", "oracle", "postgres", "react-native", "sap", "sqlite", "sqljs", "spanner".
+    at DriverFactory.create (/home/nicolas/Documentos/Projetos/online-shop-backend/src/driver/DriverFactory.ts:72:23)
+    at new DataSource (/home/nicolas/Documentos/Projetos/online-shop-backend/src/data-source/DataSource.ts:149:43)
+    at createTypeormDataSource (/home/nicolas/Documentos/Projetos/online-shop-backend/node_modules/@nestjs/typeorm/dist/typeorm-core.module.js:164:23)
+    at /home/nicolas/Documentos/Projetos/online-shop-backend/node_modules/@nestjs/typeorm/dist/typeorm-core.module.js:169:36
+    at Observable._subscribe (/home/nicolas/Documentos/Projetos/online-shop-backend/node_modules/rxjs/src/internal/observable/defer.ts:55:15)
+    at Observable._trySubscribe (/home/nicolas/Documentos/Projetos/online-shop-backend/node_modules/rxjs/src/internal/Observable.ts:244:19)
+    at /home/nicolas/Documentos/Projetos/online-shop-backend/node_modules/rxjs/src/internal/Observable.ts:234:18
+    at Object.errorContext (/home/nicolas/Documentos/Projetos/online-shop-backend/node_modules/rxjs/src/internal/util/errorContext.ts:29:5)
+    at Observable.subscribe (/home/nicolas/Documentos/Projetos/online-shop-backend/node_modules/rxjs/src/internal/Observable.ts:220:5)
+    at subscribeForRetryWhen (/home/nicolas/Documentos/Projetos/online-shop-backend/node_modules/rxjs/src/internal/operators/retryWhen.ts:74:25)
+[31m[Nest] 9637  - [39m24/01/2024, 22:17:40 [31m  ERROR[39m [38;5;3m[TypeOrmModule] [39m[31mUnable to connect to the database. Retrying (3)...[39m
+MissingDriverError: Wrong driver: "undefined" given. Supported drivers are: "aurora-mysql", "aurora-postgres", "better-sqlite3", "capacitor", "cockroachdb", "cordova", "expo", "mariadb", "mongodb", "mssql", "mysql", "nativescript", "oracle", "postgres", "react-native", "sap", "sqlite", "sqljs", "spanner".
+    at DriverFactory.create (/home/nicolas/Documentos/Projetos/online-shop-backend/src/driver/DriverFactory.ts:72:23)
+    at new DataSource (/home/nicolas/Documentos/Projetos/online-shop-backend/src/data-source/DataSource.ts:149:43)
+    at createTypeormDataSource (/home/nicolas/Documentos/Projetos/online-shop-backend/node_modules/@nestjs/typeorm/dist/typeorm-core.module.js:164:23)
+    at /home/nicolas/Documentos/Projetos/online-shop-backend/node_modules/@nestjs/typeorm/dist/typeorm-core.module.js:169:36
+    at Observable._subscribe (/home/nicolas/Documentos/Projetos/online-shop-backend/node_modules/rxjs/src/internal/observable/defer.ts:55:15)
+    at Observable._trySubscribe (/home/nicolas/Documentos/Projetos/online-shop-backend/node_modules/rxjs/src/internal/Observable.ts:244:19)
+    at /home/nicolas/Documentos/Projetos/online-shop-backend/node_modules/rxjs/src/internal/Observable.ts:234:18
+    at Object.errorContext (/home/nicolas/Documentos/Projetos/online-shop-backend/node_modules/rxjs/src/internal/util/errorContext.ts:29:5)
+    at Observable.subscribe (/home/nicolas/Documentos/Projetos/online-shop-backend/node_modules/rxjs/src/internal/Observable.ts:220:5)
+    at subscribeForRetryWhen (/home/nicolas/Documentos/Projetos/online-shop-backend/node_modules/rxjs/src/internal/operators/retryWhen.ts:74:25)
+[31m[Nest] 9637  - [39m24/01/2024, 22:17:43 [31m  ERROR[39m [38;5;3m[TypeOrmModule] [39m[31mUnable to connect to the database. Retrying (4)...[39m
+MissingDriverError: Wrong driver: "undefined" given. Supported drivers are: "aurora-mysql", "aurora-postgres", "better-sqlite3", "capacitor", "cockroachdb", "cordova", "expo", "mariadb", "mongodb", "mssql", "mysql", "nativescript", "oracle", "postgres", "react-native", "sap", "sqlite", "sqljs", "spanner".
+    at DriverFactory.create (/home/nicolas/Documentos/Projetos/online-shop-backend/src/driver/DriverFactory.ts:72:23)
+    at new DataSource (/home/nicolas/Documentos/Projetos/online-shop-backend/src/data-source/DataSource.ts:149:43)
+    at createTypeormDataSource (/home/nicolas/Documentos/Projetos/online-shop-backend/node_modules/@nestjs/typeorm/dist/typeorm-core.module.js:164:23)
+    at /home/nicolas/Documentos/Projetos/online-shop-backend/node_modules/@nestjs/typeorm/dist/typeorm-core.module.js:169:36
+    at Observable._subscribe (/home/nicolas/Documentos/Projetos/online-shop-backend/node_modules/rxjs/src/internal/observable/defer.ts:55:15)
+    at Observable._trySubscribe (/home/nicolas/Documentos/Projetos/online-shop-backend/node_modules/rxjs/src/internal/Observable.ts:244:19)
+    at /home/nicolas/Documentos/Projetos/online-shop-backend/node_modules/rxjs/src/internal/Observable.ts:234:18
+    at Object.errorContext (/home/nicolas/Documentos/Projetos/online-shop-backend/node_modules/rxjs/src/internal/util/errorContext.ts:29:5)
+    at Observable.subscribe (/home/nicolas/Documentos/Projetos/online-shop-backend/node_modules/rxjs/src/internal/Observable.ts:220:5)
+    at subscribeForRetryWhen (/home/nicolas/Documentos/Projetos/online-shop-backend/node_modules/rxjs/src/internal/operators/retryWhen.ts:74:25)
+[31m[Nest] 9637  - [39m24/01/2024, 22:17:46 [31m  ERROR[39m [38;5;3m[TypeOrmModule] [39m[31mUnable to connect to the database. Retrying (5)...[39m
+MissingDriverError: Wrong driver: "undefined" given. Supported drivers are: "aurora-mysql", "aurora-postgres", "better-sqlite3", "capacitor", "cockroachdb", "cordova", "expo", "mariadb", "mongodb", "mssql", "mysql", "nativescript", "oracle", "postgres", "react-native", "sap", "sqlite", "sqljs", "spanner".
+    at DriverFactory.create (/home/nicolas/Documentos/Projetos/online-shop-backend/src/driver/DriverFactory.ts:72:23)
+    at new DataSource (/home/nicolas/Documentos/Projetos/online-shop-backend/src/data-source/DataSource.ts:149:43)
+    at createTypeormDataSource (/home/nicolas/Documentos/Projetos/online-shop-backend/node_modules/@nestjs/typeorm/dist/typeorm-core.module.js:164:23)
+    at /home/nicolas/Documentos/Projetos/online-shop-backend/node_modules/@nestjs/typeorm/dist/typeorm-core.module.js:169:36
+    at Observable._subscribe (/home/nicolas/Documentos/Projetos/online-shop-backend/node_modules/rxjs/src/internal/observable/defer.ts:55:15)
+    at Observable._trySubscribe (/home/nicolas/Documentos/Projetos/online-shop-backend/node_modules/rxjs/src/internal/Observable.ts:244:19)
+    at /home/nicolas/Documentos/Projetos/online-shop-backend/node_modules/rxjs/src/internal/Observable.ts:234:18
+    at Object.errorContext (/home/nicolas/Documentos/Projetos/online-shop-backend/node_modules/rxjs/src/internal/util/errorContext.ts:29:5)
+    at Observable.subscribe (/home/nicolas/Documentos/Projetos/online-shop-backend/node_modules/rxjs/src/internal/Observable.ts:220:5)
+    at subscribeForRetryWhen (/home/nicolas/Documentos/Projetos/online-shop-backend/node_modules/rxjs/src/internal/operators/retryWhen.ts:74:25)
+[31m[Nest] 9637  - [39m24/01/2024, 22:17:49 [31m  ERROR[39m [38;5;3m[TypeOrmModule] [39m[31mUnable to connect to the database. Retrying (6)...[39m
+MissingDriverError: Wrong driver: "undefined" given. Supported drivers are: "aurora-mysql", "aurora-postgres", "better-sqlite3", "capacitor", "cockroachdb", "cordova", "expo", "mariadb", "mongodb", "mssql", "mysql", "nativescript", "oracle", "postgres", "react-native", "sap", "sqlite", "sqljs", "spanner".
+    at DriverFactory.create (/home/nicolas/Documentos/Projetos/online-shop-backend/src/driver/DriverFactory.ts:72:23)
+    at new DataSource (/home/nicolas/Documentos/Projetos/online-shop-backend/src/data-source/DataSource.ts:149:43)
+    at createTypeormDataSource (/home/nicolas/Documentos/Projetos/online-shop-backend/node_modules/@nestjs/typeorm/dist/typeorm-core.module.js:164:23)
+    at /home/nicolas/Documentos/Projetos/online-shop-backend/node_modules/@nestjs/typeorm/dist/typeorm-core.module.js:169:36
+    at Observable._subscribe (/home/nicolas/Documentos/Projetos/online-shop-backend/node_modules/rxjs/src/internal/observable/defer.ts:55:15)
+    at Observable._trySubscribe (/home/nicolas/Documentos/Projetos/online-shop-backend/node_modules/rxjs/src/internal/Observable.ts:244:19)
+    at /home/nicolas/Documentos/Projetos/online-shop-backend/node_modules/rxjs/src/internal/Observable.ts:234:18
+    at Object.errorContext (/home/nicolas/Documentos/Projetos/online-shop-backend/node_modules/rxjs/src/internal/util/errorContext.ts:29:5)
+    at Observable.subscribe (/home/nicolas/Documentos/Projetos/online-shop-backend/node_modules/rxjs/src/internal/Observable.ts:220:5)
+    at subscribeForRetryWhen (/home/nicolas/Documentos/Projetos/online-shop-backend/node_modules/rxjs/src/internal/operators/retryWhen.ts:74:25)
+[31m[Nest] 9637  - [39m24/01/2024, 22:17:52 [31m  ERROR[39m [38;5;3m[TypeOrmModule] [39m[31mUnable to connect to the database. Retrying (7)...[39m
+MissingDriverError: Wrong driver: "undefined" given. Supported drivers are: "aurora-mysql", "aurora-postgres", "better-sqlite3", "capacitor", "cockroachdb", "cordova", "expo", "mariadb", "mongodb", "mssql", "mysql", "nativescript", "oracle", "postgres", "react-native", "sap", "sqlite", "sqljs", "spanner".
+    at DriverFactory.create (/home/nicolas/Documentos/Projetos/online-shop-backend/src/driver/DriverFactory.ts:72:23)
+    at new DataSource (/home/nicolas/Documentos/Projetos/online-shop-backend/src/data-source/DataSource.ts:149:43)
+    at createTypeormDataSource (/home/nicolas/Documentos/Projetos/online-shop-backend/node_modules/@nestjs/typeorm/dist/typeorm-core.module.js:164:23)
+    at /home/nicolas/Documentos/Projetos/online-shop-backend/node_modules/@nestjs/typeorm/dist/typeorm-core.module.js:169:36
+    at Observable._subscribe (/home/nicolas/Documentos/Projetos/online-shop-backend/node_modules/rxjs/src/internal/observable/defer.ts:55:15)
+    at Observable._trySubscribe (/home/nicolas/Documentos/Projetos/online-shop-backend/node_modules/rxjs/src/internal/Observable.ts:244:19)
+    at /home/nicolas/Documentos/Projetos/online-shop-backend/node_modules/rxjs/src/internal/Observable.ts:234:18
+    at Object.errorContext (/home/nicolas/Documentos/Projetos/online-shop-backend/node_modules/rxjs/src/internal/util/errorContext.ts:29:5)
+    at Observable.subscribe (/home/nicolas/Documentos/Projetos/online-shop-backend/node_modules/rxjs/src/internal/Observable.ts:220:5)
+    at subscribeForRetryWhen (/home/nicolas/Documentos/Projetos/online-shop-backend/node_modules/rxjs/src/internal/operators/retryWhen.ts:74:25)
+[31m[Nest] 9637  - [39m24/01/2024, 22:17:55 [31m  ERROR[39m [38;5;3m[TypeOrmModule] [39m[31mUnable to connect to the database. Retrying (8)...[39m
+MissingDriverError: Wrong driver: "undefined" given. Supported drivers are: "aurora-mysql", "aurora-postgres", "better-sqlite3", "capacitor", "cockroachdb", "cordova", "expo", "mariadb", "mongodb", "mssql", "mysql", "nativescript", "oracle", "postgres", "react-native", "sap", "sqlite", "sqljs", "spanner".
+    at DriverFactory.create (/home/nicolas/Documentos/Projetos/online-shop-backend/src/driver/DriverFactory.ts:72:23)
+    at new DataSource (/home/nicolas/Documentos/Projetos/online-shop-backend/src/data-source/DataSource.ts:149:43)
+    at createTypeormDataSource (/home/nicolas/Documentos/Projetos/online-shop-backend/node_modules/@nestjs/typeorm/dist/typeorm-core.module.js:164:23)
+    at /home/nicolas/Documentos/Projetos/online-shop-backend/node_modules/@nestjs/typeorm/dist/typeorm-core.module.js:169:36
+    at Observable._subscribe (/home/nicolas/Documentos/Projetos/online-shop-backend/node_modules/rxjs/src/internal/observable/defer.ts:55:15)
+    at Observable._trySubscribe (/home/nicolas/Documentos/Projetos/online-shop-backend/node_modules/rxjs/src/internal/Observable.ts:244:19)
+    at /home/nicolas/Documentos/Projetos/online-shop-backend/node_modules/rxjs/src/internal/Observable.ts:234:18
+    at Object.errorContext (/home/nicolas/Documentos/Projetos/online-shop-backend/node_modules/rxjs/src/internal/util/errorContext.ts:29:5)
+    at Observable.subscribe (/home/nicolas/Documentos/Projetos/online-shop-backend/node_modules/rxjs/src/internal/Observable.ts:220:5)
+    at subscribeForRetryWhen (/home/nicolas/Documentos/Projetos/online-shop-backend/node_modules/rxjs/src/internal/operators/retryWhen.ts:74:25)
+[31m[Nest] 9637  - [39m24/01/2024, 22:17:58 [31m  ERROR[39m [38;5;3m[TypeOrmModule] [39m[31mUnable to connect to the database. Retrying (9)...[39m
+MissingDriverError: Wrong driver: "undefined" given. Supported drivers are: "aurora-mysql", "aurora-postgres", "better-sqlite3", "capacitor", "cockroachdb", "cordova", "expo", "mariadb", "mongodb", "mssql", "mysql", "nativescript", "oracle", "postgres", "react-native", "sap", "sqlite", "sqljs", "spanner".
+    at DriverFactory.create (/home/nicolas/Documentos/Projetos/online-shop-backend/src/driver/DriverFactory.ts:72:23)
+    at new DataSource (/home/nicolas/Documentos/Projetos/online-shop-backend/src/data-source/DataSource.ts:149:43)
+    at createTypeormDataSource (/home/nicolas/Documentos/Projetos/online-shop-backend/node_modules/@nestjs/typeorm/dist/typeorm-core.module.js:164:23)
+    at /home/nicolas/Documentos/Projetos/online-shop-backend/node_modules/@nestjs/typeorm/dist/typeorm-core.module.js:169:36
+    at Observable._subscribe (/home/nicolas/Documentos/Projetos/online-shop-backend/node_modules/rxjs/src/internal/observable/defer.ts:55:15)
+    at Observable._trySubscribe (/home/nicolas/Documentos/Projetos/online-shop-backend/node_modules/rxjs/src/internal/Observable.ts:244:19)
+    at /home/nicolas/Documentos/Projetos/online-shop-backend/node_modules/rxjs/src/internal/Observable.ts:234:18
+    at Object.errorContext (/home/nicolas/Documentos/Projetos/online-shop-backend/node_modules/rxjs/src/internal/util/errorContext.ts:29:5)
+    at Observable.subscribe (/home/nicolas/Documentos/Projetos/online-shop-backend/node_modules/rxjs/src/internal/Observable.ts:220:5)
+    at subscribeForRetryWhen (/home/nicolas/Documentos/Projetos/online-shop-backend/node_modules/rxjs/src/internal/operators/retryWhen.ts:74:25)
+[31m[Nest] 9637  - [39m24/01/2024, 22:17:58 [31m  ERROR[39m [38;5;3m[ExceptionHandler] [39m[31mWrong driver: "undefined" given. Supported drivers are: "aurora-mysql", "aurora-postgres", "better-sqlite3", "capacitor", "cockroachdb", "cordova", "expo", "mariadb", "mongodb", "mssql", "mysql", "nativescript", "oracle", "postgres", "react-native", "sap", "sqlite", "sqljs", "spanner".[39m
+MissingDriverError: Wrong driver: "undefined" given. Supported drivers are: "aurora-mysql", "aurora-postgres", "better-sqlite3", "capacitor", "cockroachdb", "cordova", "expo", "mariadb", "mongodb", "mssql", "mysql", "nativescript", "oracle", "postgres", "react-native", "sap", "sqlite", "sqljs", "spanner".
+    at DriverFactory.create (/home/nicolas/Documentos/Projetos/online-shop-backend/src/driver/DriverFactory.ts:72:23)
+    at new DataSource (/home/nicolas/Documentos/Projetos/online-shop-backend/src/data-source/DataSource.ts:149:43)
+    at createTypeormDataSource (/home/nicolas/Documentos/Projetos/online-shop-backend/node_modules/@nestjs/typeorm/dist/typeorm-core.module.js:164:23)
+    at /home/nicolas/Documentos/Projetos/online-shop-backend/node_modules/@nestjs/typeorm/dist/typeorm-core.module.js:169:36
+    at Observable._subscribe (/home/nicolas/Documentos/Projetos/online-shop-backend/node_modules/rxjs/src/internal/observable/defer.ts:55:15)
+    at Observable._trySubscribe (/home/nicolas/Documentos/Projetos/online-shop-backend/node_modules/rxjs/src/internal/Observable.ts:244:19)
+    at /home/nicolas/Documentos/Projetos/online-shop-backend/node_modules/rxjs/src/internal/Observable.ts:234:18
+    at Object.errorContext (/home/nicolas/Documentos/Projetos/online-shop-backend/node_modules/rxjs/src/internal/util/errorContext.ts:29:5)
+    at Observable.subscribe (/home/nicolas/Documentos/Projetos/online-shop-backend/node_modules/rxjs/src/internal/Observable.ts:220:5)
+    at subscribeForRetryWhen (/home/nicolas/Documentos/Projetos/online-shop-backend/node_modules/rxjs/src/internal/operators/retryWhen.ts:74:25)
+c[[90m22:18:02[0m] File change detected. Starting incremental compilation...
+
+[[90m22:18:03[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 9762  - [39m24/01/2024, 22:18:04 [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 9762  - [39m24/01/2024, 22:18:04 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +50ms[39m
+[32m[Nest] 9762  - [39m24/01/2024, 22:18:04 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 9762  - [39m24/01/2024, 22:18:04 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 9762  - [39m24/01/2024, 22:18:04 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mUserModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 9762  - [39m24/01/2024, 22:18:04 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 9762  - [39m24/01/2024, 22:18:04 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmCoreModule dependencies initialized[39m[38;5;3m +51ms[39m
+[32m[Nest] 9762  - [39m24/01/2024, 22:18:04 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mUserController {/user}:[39m[38;5;3m +20ms[39m
+[32m[Nest] 9762  - [39m24/01/2024, 22:18:04 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/user, POST} route[39m[38;5;3m +4ms[39m
+[32m[Nest] 9762  - [39m24/01/2024, 22:18:04 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/user, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 9762  - [39m24/01/2024, 22:18:04 [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +3ms[39m
+
+> online-shop-backend@0.0.1 start:dev
+> nest start --watch
+
+c[[90m22:23:40[0m] Starting compilation in watch mode...
+
+[[90m22:23:43[0m] Found 0 errors. Watching for file changes.
+
+[32m[Nest] 11126  - [39m24/01/2024, 22:23:45 [32m    LOG[39m [38;5;3m[NestFactory] [39m[32mStarting Nest application...[39m
+[32m[Nest] 11126  - [39m24/01/2024, 22:23:45 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mAppModule dependencies initialized[39m[38;5;3m +49ms[39m
+[32m[Nest] 11126  - [39m24/01/2024, 22:23:45 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 11126  - [39m24/01/2024, 22:23:45 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigHostModule dependencies initialized[39m[38;5;3m +1ms[39m
+[32m[Nest] 11126  - [39m24/01/2024, 22:23:45 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mUserModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 11126  - [39m24/01/2024, 22:23:45 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mConfigModule dependencies initialized[39m[38;5;3m +0ms[39m
+[32m[Nest] 11126  - [39m24/01/2024, 22:23:45 [32m    LOG[39m [38;5;3m[InstanceLoader] [39m[32mTypeOrmCoreModule dependencies initialized[39m[38;5;3m +68ms[39m
+[32m[Nest] 11126  - [39m24/01/2024, 22:23:45 [32m    LOG[39m [38;5;3m[RoutesResolver] [39m[32mUserController {/user}:[39m[38;5;3m +12ms[39m
+[32m[Nest] 11126  - [39m24/01/2024, 22:23:45 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/user, POST} route[39m[38;5;3m +4ms[39m
+[32m[Nest] 11126  - [39m24/01/2024, 22:23:45 [32m    LOG[39m [38;5;3m[RouterExplorer] [39m[32mMapped {/user, GET} route[39m[38;5;3m +1ms[39m
+[32m[Nest] 11126  - [39m24/01/2024, 22:23:45 [32m    LOG[39m [38;5;3m[NestApplication] [39m[32mNest application successfully started[39m[38;5;3m +3ms[39m
