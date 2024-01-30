@@ -1,4 +1,4 @@
-import { ListAddressDto } from 'src/address/dto/list-address.dto';
+import { ListAddressDto } from '../../address/dto/list-address.dto';
 import { UserEntity } from '../entities/user.entity';
 
 export class ListUserDto {

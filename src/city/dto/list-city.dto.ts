@@ -1,4 +1,4 @@
-import { ListStateDto } from 'src/state/dto/list-state.dto';
+import { ListStateDto } from '../../state/dto/list-state.dto';
 import { CityEntity } from '../entities/city.entity';
 
 export class ListCityDto {
