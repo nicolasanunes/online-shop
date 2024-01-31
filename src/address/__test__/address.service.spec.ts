@@ -10,7 +10,7 @@ import { userMock } from '../../user/__mock__/user.mock';
 import { CityService } from '../../city/city.service';
 import { createAddressMock } from '../__mock__/create-address.mock';
 
-describe('UserService', () => {
+describe('AddressService', () => {
   let addressService: AddressService;
   let addressRepository: Repository<AddressEntity>;
   let userService: UserService;
