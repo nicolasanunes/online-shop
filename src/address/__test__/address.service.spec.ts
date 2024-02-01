@@ -36,6 +36,7 @@ describe('AddressService', () => {
           provide: getRepositoryToken(AddressEntity),
           useValue: {
             save: jest.fn().mockResolvedValue(addressMock),
+            find: jest.fn().mockResolvedValue([addressMock]),
           },
         },
       ],
@@ -78,6 +79,20 @@ describe('AddressService', () => {
 
     expect(
       addressService.createAddress(createAddressMock, userMock.id),
+    ).rejects.toThrowError();
+  });
+
+  it('should return all address to user', async () => {
+    const addresses = await addressService.listAddressByUserId(userMock.id);
+
+    expect(addresses).toEqual([addressMock]);
+  });
+
+  it('should return not found if address not find', async () => {
+    jest.spyOn(addressRepository, 'find').mockResolvedValue(undefined);
+
+    expect(
+      addressService.listAddressByUserId(userMock.id),
     ).rejects.toThrowError();
   });
 });
