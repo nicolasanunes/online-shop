@@ -18,7 +18,7 @@ import { CreateCategoryDto } from './dto/create-category.dto';
 export class CategoryController {
   constructor(private readonly categoryService: CategoryService) {}
 
-  @Roles(UserTypeEnum.Admin, UserTypeEnum.User)
+  @Roles(UserTypeEnum.Admin)
   @UsePipes(ValidationPipe)
   @Post()
   async createCategory(
