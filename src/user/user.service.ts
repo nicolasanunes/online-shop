@@ -8,6 +8,7 @@ import { CreateUserDto } from './dto/create-user.dto';
 import { UserEntity } from './entities/user.entity';
 import { InjectRepository } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';
+import { UserTypeEnum } from './enum/user-type.enum';
 
 @Injectable()
 export class UserService {
@@ -30,7 +31,7 @@ export class UserService {
 
     return this.userRepository.save({
       ...createUserDto,
-      typeUser: 1,
+      typeUser: UserTypeEnum.User,
       password: hashedPassword,
     });
   }
