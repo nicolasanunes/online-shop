@@ -13,6 +13,7 @@ import { JwtModule } from '@nestjs/jwt';
 import { CategoryModule } from './category/category.module';
 import { ProductModule } from './product/product.module';
 import { CartModule } from './cart/cart.module';
+import { ProductCartModule } from './product-cart/product-cart.module';
 
 @Module({
   imports: [
@@ -40,6 +41,7 @@ import { CartModule } from './cart/cart.module';
     CategoryModule,
     ProductModule,
     CartModule,
+    ProductCartModule,
   ],
   controllers: [],
   providers: [
