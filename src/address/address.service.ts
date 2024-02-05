@@ -19,7 +19,7 @@ export class AddressService {
     createAddressDto: CreateAddressDto,
     userId: number,
   ): Promise<AddressEntity> {
-    await this.userService.listUserById(userId);
+    await this.userService.findUserById(userId);
     await this.cityService.listCityById(createAddressDto.cityId);
 
     return this.addressRepository.save({

@@ -53,22 +53,22 @@ describe('UserService', () => {
     expect(userService.listUserByEmail(userMock.email)).rejects.toThrowError();
   });
 
-  it('should return user in listUserById', async () => {
-    const user = await userService.listUserById(userMock.id);
+  it('should return user in findUserById', async () => {
+    const user = await userService.findUserById(userMock.id);
 
     expect(user).toEqual(userMock);
   });
 
-  it('should return error in listUserById', async () => {
+  it('should return error in findUserById', async () => {
     jest.spyOn(userRepository, 'findOne').mockResolvedValue(undefined);
 
-    expect(userService.listUserById(userMock.id)).rejects.toThrowError();
+    expect(userService.findUserById(userMock.id)).rejects.toThrowError();
   });
 
-  it('should return error in listUserById (error db)', async () => {
+  it('should return error in findUserById (error db)', async () => {
     jest.spyOn(userRepository, 'findOne').mockRejectedValueOnce(new Error());
 
-    expect(userService.listUserById(userMock.id)).rejects.toThrowError();
+    expect(userService.findUserById(userMock.id)).rejects.toThrowError();
   });
 
   it('should return user in listUserByIdUsingRelations', async () => {
