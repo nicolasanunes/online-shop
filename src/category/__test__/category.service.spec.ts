@@ -91,4 +91,18 @@ describe('CategoryService', () => {
       categoryService.listCategoryByName(categoryMock.name),
     ).rejects.toThrowError();
   });
+
+  it('should return listCategoryById', async () => {
+    const category = await categoryService.listCategoryById(categoryMock.id);
+
+    expect(category).toEqual(categoryMock);
+  });
+
+  it('should return error not found in listCategoryById', async () => {
+    jest.spyOn(categoryRepository, 'findOne').mockResolvedValue(undefined);
+
+    expect(
+      categoryService.listCategoryById(categoryMock.id),
+    ).rejects.toThrowError();
+  });
 });
