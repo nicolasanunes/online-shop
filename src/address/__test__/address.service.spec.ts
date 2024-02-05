@@ -23,7 +23,7 @@ describe('AddressService', () => {
         {
           provide: UserService,
           useValue: {
-            listUserById: jest.fn().mockResolvedValue(userMock),
+            findUserById: jest.fn().mockResolvedValue(userMock),
           },
         },
         {
@@ -67,7 +67,7 @@ describe('AddressService', () => {
   });
 
   it('should return error if exception in userService', async () => {
-    jest.spyOn(userService, 'listUserById').mockRejectedValueOnce(new Error());
+    jest.spyOn(userService, 'findUserById').mockRejectedValueOnce(new Error());
 
     expect(
       addressService.createAddress(createAddressMock, userMock.id),

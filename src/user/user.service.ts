@@ -9,7 +9,7 @@ import { InjectRepository } from '@nestjs/typeorm';
 import { Repository } from 'typeorm';
 import { UserTypeEnum } from './enum/user-type.enum';
 import { UpdateUserPasswordDto } from './dto/update-user-password.dto';
-import { createHashedPassword, validatePassword } from 'src/utils/password';
+import { createHashedPassword, validatePassword } from '../utils/password';
 
 @Injectable()
 export class UserService {
@@ -99,7 +99,7 @@ export class UserService {
     );
 
     if (!isMatch) {
-      throw new BadRequestException('Invalidad last password');
+      throw new BadRequestException('Invalid last password');
     }
 
     return this.userRepository.save({

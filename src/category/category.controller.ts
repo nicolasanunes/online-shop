@@ -13,7 +13,6 @@ import { UserTypeEnum } from '../user/enum/user-type.enum';
 import { CategoryEntity } from './entities/category.entity';
 import { CreateCategoryDto } from './dto/create-category.dto';
 
-@Roles(UserTypeEnum.Admin, UserTypeEnum.User)
 @Controller('category')
 export class CategoryController {
   constructor(private readonly categoryService: CategoryService) {}
@@ -27,6 +26,7 @@ export class CategoryController {
     return this.categoryService.createCategory(createCategory);
   }
 
+  @Roles(UserTypeEnum.Admin, UserTypeEnum.User)
   @Get()
   async listAllCategories(): Promise<ListCategoryDto[]> {
     return (await this.categoryService.listAllCategories()).map(

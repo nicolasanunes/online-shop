@@ -18,7 +18,6 @@ import { CreateProductDto } from './dto/create-product.dto';
 import { DeleteResult } from 'typeorm';
 import { UpdateProductDto } from './dto/update-product.dto';
 
-@Roles(UserTypeEnum.Admin, UserTypeEnum.User)
 @Controller('product')
 export class ProductController {
   constructor(private readonly productService: ProductService) {}
@@ -32,6 +31,7 @@ export class ProductController {
     return this.productService.createProduct(createProduct);
   }
 
+  @Roles(UserTypeEnum.Admin, UserTypeEnum.User)
   @Get()
   async listAllProducts(): Promise<ListProductDto[]> {
     return (await this.productService.listAllProducts()).map(
