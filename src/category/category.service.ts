@@ -16,19 +16,19 @@ export class CategoryService {
   ) {}
 
   async createCategory(
-    createCategory: CreateCategoryDto,
+    createCategoryDto: CreateCategoryDto,
   ): Promise<CategoryEntity> {
-    const category = await this.listCategoryByName(createCategory.name).catch(
-      () => undefined,
-    );
+    const category = await this.listCategoryByName(
+      createCategoryDto.name,
+    ).catch(() => undefined);
 
     if (category) {
       throw new BadRequestException(
-        `Category name: ${createCategory.name} exists`,
+        `Category name: ${createCategoryDto.name} exists`,
       );
     }
 
-    return this.categoryRepository.save(createCategory);
+    return this.categoryRepository.save(createCategoryDto);
   }
 
   async listCategoryByName(name: string): Promise<CategoryEntity> {

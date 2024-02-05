@@ -10,12 +10,12 @@ import { UpdateProductDto } from './dto/update-product.dto';
 export class ProductService {
   constructor(
     @InjectRepository(ProductEntity)
-    private readonly productRespository: Repository<ProductEntity>,
+    private readonly productRepository: Repository<ProductEntity>,
     private readonly categoryService: CategoryService,
   ) {}
 
   async listAllProducts(): Promise<ProductEntity[]> {
-    const products = await this.productRespository.find();
+    const products = await this.productRepository.find();
 
     if (!products || products.length === 0) {
       throw new NotFoundException(`Products not found`);
@@ -24,16 +24,19 @@ export class ProductService {
     return products;
   }
 
-  async createProduct(createProduct: CreateProductDto): Promise<ProductEntity> {
-    await this, this.categoryService.listCategoryById(createProduct.categoryId);
+  async createProduct(
+    createProductDto: CreateProductDto,
+  ): Promise<ProductEntity> {
+    await this,
+      this.categoryService.listCategoryById(createProductDto.categoryId);
 
-    return this.productRespository.save({
-      ...createProduct,
+    return this.productRepository.save({
+      ...createProductDto,
     });
   }
 
   async findProductById(productId: number): Promise<ProductEntity> {
-    const product = await this.productRespository.findOne({
+    const product = await this.productRepository.findOne({
       where: {
         id: productId,
       },
@@ -47,20 +50,20 @@ export class ProductService {
   }
 
   async updateProduct(
-    updateProduct: UpdateProductDto,
+    updateProductDto: UpdateProductDto,
     productId: number,
   ): Promise<ProductEntity> {
     const product = await this.findProductById(productId);
 
-    return this.productRespository.save({
+    return this.productRepository.save({
       ...product,
-      ...updateProduct,
+      ...updateProductDto,
     });
   }
 
   async deleteProduct(productId: number): Promise<DeleteResult> {
     await this.findProductById(productId);
 
-    return this.productRespository.delete({ id: productId });
+    return this.productRepository.delete({ id: productId });
   }
 }
