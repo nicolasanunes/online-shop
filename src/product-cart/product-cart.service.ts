@@ -4,12 +4,14 @@ import { ProductCartEntity } from './entities/product-cart.entity';
 import { Repository } from 'typeorm';
 import { InsertProductInCartDto } from 'src/cart/dto/insert-product-in-cart.dto';
 import { CartEntity } from 'src/cart/entities/cart.entity';
+import { ProductService } from 'src/product/product.service';
 
 @Injectable()
 export class ProductCartService {
   constructor(
     @InjectRepository(ProductCartEntity)
     private readonly productCartRepository: Repository<ProductCartEntity>,
+    private readonly productService: ProductService,
   ) {}
 
   async verifyProductInCart(
@@ -34,6 +36,8 @@ export class ProductCartService {
     insertProductInCartDto: InsertProductInCartDto,
     cart: CartEntity,
   ): Promise<ProductCartEntity> {
+    await this.productService.findProductById(insertProductInCartDto.productId);
+
     const productCart = await this.verifyProductInCart(
       insertProductInCartDto.productId,
       cart.id,
