@@ -4,6 +4,7 @@ import { CartEntity } from './entities/cart.entity';
 import { DeleteResult, Repository } from 'typeorm';
 import { InsertProductInCartDto } from './dto/insert-product-in-cart.dto';
 import { ProductCartService } from 'src/product-cart/product-cart.service';
+import { UpdateProductInCartDto } from './dto/update-product-in-cart.dto';
 
 const LINE_AFFECTED = 1;
 @Injectable()
@@ -76,5 +77,30 @@ export class CartService {
       raw: [],
       affected: LINE_AFFECTED,
     };
+  }
+
+  async deleteProductCart(
+    productId: number,
+    userId: number,
+  ): Promise<DeleteResult> {
+    const cart = await this.findCartByUserId(userId);
+
+    return this.productCartService.deleteProductCart(productId, cart.id);
+  }
+
+  async updateProductInCart(
+    updateProductInCartDto: UpdateProductInCartDto,
+    userId: number,
+  ): Promise<CartEntity> {
+    const cart = await this.findCartByUserId(userId).catch(async () => {
+      return this.createCart(userId);
+    });
+
+    await this.productCartService.updateProductInCart(
+      updateProductInCartDto,
+      cart,
+    );
+
+    return cart;
   }
 }
