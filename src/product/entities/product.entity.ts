@@ -1,4 +1,4 @@
-import { ProductCartEntity } from 'src/product-cart/entities/product-cart.entity';
+import { ProductCartEntity } from '../../product-cart/entities/product-cart.entity';
 import { CategoryEntity } from '../../category/entities/category.entity';
 import {
   Column,
