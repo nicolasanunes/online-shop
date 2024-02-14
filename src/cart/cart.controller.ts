@@ -54,7 +54,7 @@ export class CartController {
     @Param('productId') productId: number,
     @UserId() userId: number,
   ): Promise<DeleteResult> {
-    return this.cartService.deleteProductCart(productId, userId);
+    return this.cartService.deleteProductInCart(productId, userId);
   }
 
   @UsePipes(ValidationPipe)

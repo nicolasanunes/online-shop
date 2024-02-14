@@ -52,7 +52,7 @@ describe('ProductCartService', () => {
   });
 
   it('should return DeleteResult after delete some product', async () => {
-    const deleteResult = await productCartService.deleteProductCart(
+    const deleteResult = await productCartService.deleteProductInCart(
       productMock.id,
       cartMock.id,
     );
@@ -64,7 +64,7 @@ describe('ProductCartService', () => {
     jest.spyOn(productCartRepository, 'delete').mockRejectedValue(new Error());
 
     expect(
-      productCartService.deleteProductCart(productMock.id, cartMock.id),
+      productCartService.deleteProductInCart(productMock.id, cartMock.id),
     ).rejects.toThrowError();
   });
 
