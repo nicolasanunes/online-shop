@@ -14,8 +14,10 @@ import { CategoryModule } from './category/category.module';
 import { ProductModule } from './product/product.module';
 import { CartModule } from './cart/cart.module';
 import { ProductCartModule } from './product-cart/product-cart.module';
-import { PaymentStatusModule } from './payment_status/payment_status.module';
+import { PaymentStatusModule } from './payment-status/payment_status.module';
 import { PaymentModule } from './payment/payment.module';
+import { OrderModule } from './order/order.module';
+import { OrderProductModule } from './order-product/order-product.module';
 
 @Module({
   imports: [
@@ -46,6 +48,8 @@ import { PaymentModule } from './payment/payment.module';
     ProductCartModule,
     PaymentStatusModule,
     PaymentModule,
+    OrderModule,
+    OrderProductModule,
   ],
   controllers: [],
   providers: [
