@@ -1,6 +1,7 @@
 import {
   Body,
   Controller,
+  Get,
   Post,
   UsePipes,
   ValidationPipe,
@@ -20,5 +21,10 @@ export class OrderController {
     @UserId() userId: number,
   ) {
     return this.orderService.createOrder(createOrderDto, userId);
+  }
+
+  @Get()
+  async findOrdersByUserId(@UserId() userId: number) {
+    return this.orderService.findOrdersByUserId(userId);
   }
 }
