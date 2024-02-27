@@ -9,6 +9,7 @@ import {
 import { CreateOrderDto } from './dto/create-order.dto';
 import { OrderService } from './order.service';
 import { UserId } from '../decorator/user-id.decorator';
+import { OrderEntity } from './entities/order.entity';
 
 @Controller('order')
 export class OrderController {
@@ -19,7 +20,7 @@ export class OrderController {
   async createOrder(
     @Body() createOrderDto: CreateOrderDto,
     @UserId() userId: number,
-  ) {
+  ): Promise<OrderEntity> {
     return this.orderService.createOrder(createOrderDto, userId);
   }
 
