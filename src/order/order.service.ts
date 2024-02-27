@@ -2,15 +2,15 @@ import { Injectable, NotFoundException } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import { OrderEntity } from './entities/order.entity';
 import { Repository } from 'typeorm';
-import { PaymentService } from 'src/payment/payment.service';
-import { PaymentEntity } from 'src/payment/entities/payment.entity';
-import { CartService } from 'src/cart/cart.service';
-import { OrderProductService } from 'src/order-product/order-product.service';
+import { PaymentService } from '../payment/payment.service';
+import { PaymentEntity } from '../payment/entities/payment.entity';
+import { CartService } from '../cart/cart.service';
+import { OrderProductService } from '../order-product/order-product.service';
 import { CreateOrderDto } from './dto/create-order.dto';
-import { ProductService } from 'src/product/product.service';
-import { OrderProductEntity } from 'src/order-product/entities/order-product.entity';
-import { CartEntity } from 'src/cart/entities/cart.entity';
-import { ProductEntity } from 'src/product/entities/product.entity';
+import { ProductService } from '../product/product.service';
+import { OrderProductEntity } from '../order-product/entities/order-product.entity';
+import { CartEntity } from '../cart/entities/cart.entity';
+import { ProductEntity } from '../product/entities/product.entity';
 
 @Injectable()
 export class OrderService {
