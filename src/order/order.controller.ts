@@ -45,7 +45,7 @@ export class OrderController {
 
   @Roles(UserTypeEnum.Admin)
   @Get('/:orderId')
-  async findOrderByOrderId(
+  async findOrderById(
     @Param('orderId') orderId: number,
   ): Promise<ListOrderDto> {
     return new ListOrderDto(
