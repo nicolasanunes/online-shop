@@ -1,4 +1,4 @@
-import { ListCategoryDto } from 'src/category/dto/list-category.dto';
+import { ListCategoryDto } from '../../category/dto/list-category.dto';
 import { ProductEntity } from '../entities/product.entity';
 
 export class ListProductDto {

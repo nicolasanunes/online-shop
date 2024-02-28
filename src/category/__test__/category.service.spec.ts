@@ -5,15 +5,27 @@ import { CategoryEntity } from '../entities/category.entity';
 import { getRepositoryToken } from '@nestjs/typeorm';
 import { categoryMock } from '../__mock__/category.mock';
 import { createCategoryMock } from '../__mock__/create-category.mock';
+import { ProductService } from '../../product/product.service';
+import { countProductMock } from '../../product/__mock__/count-product.mock';
+import { ListCategoryDto } from '../dto/list-category.dto';
 
 describe('CategoryService', () => {
   let categoryService: CategoryService;
   let categoryRepository: Repository<CategoryEntity>;
+  let productService: ProductService;
 
   beforeEach(async () => {
     const module: TestingModule = await Test.createTestingModule({
       providers: [
         CategoryService,
+        {
+          provide: ProductService,
+          useValue: {
+            countProductsByCategoryId: jest
+              .fn()
+              .mockResolvedValue([countProductMock]),
+          },
+        },
         {
           provide: getRepositoryToken(CategoryEntity),
           useValue: {
@@ -29,17 +41,21 @@ describe('CategoryService', () => {
     categoryRepository = module.get<Repository<CategoryEntity>>(
       getRepositoryToken(CategoryEntity),
     );
+    productService = module.get<ProductService>(ProductService);
   });
 
   it('should be defined', () => {
     expect(categoryService).toBeDefined();
     expect(categoryRepository).toBeDefined();
+    expect(productService).toBeDefined();
   });
 
   it('should return listCategory', async () => {
     const category = await categoryService.listAllCategories();
 
-    expect(category).toEqual([categoryMock]);
+    expect(category).toEqual([
+      new ListCategoryDto(categoryMock, countProductMock.total),
+    ]);
   });
 
   it('should return error if listCategory is empty', async () => {

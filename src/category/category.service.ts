@@ -1,21 +1,24 @@
 import {
   BadRequestException,
+  Inject,
   Injectable,
   NotFoundException,
+  forwardRef,
 } from '@nestjs/common';
 import { InjectRepository } from '@nestjs/typeorm';
 import { CategoryEntity } from './entities/category.entity';
 import { Repository } from 'typeorm';
 import { CreateCategoryDto } from './dto/create-category.dto';
-import { ProductService } from 'src/product/product.service';
+import { ProductService } from '../product/product.service';
 import { ListCategoryDto } from './dto/list-category.dto';
-import { CountProductDto } from 'src/product/dto/count-product.dto';
+import { CountProductDto } from '../product/dto/count-product.dto';
 
 @Injectable()
 export class CategoryService {
   constructor(
     @InjectRepository(CategoryEntity)
     private readonly categoryRepository: Repository<CategoryEntity>,
+    @Inject(forwardRef(() => ProductService))
     private readonly productService: ProductService,
   ) {}
 
