@@ -1,4 +1,4 @@
-import { ListUserDto } from 'src/user/dto/list-user.dto';
+import { ListUserDto } from '../../user/dto/list-user.dto';
 import { OrderEntity } from '../entities/order.entity';
 
 export class ListOrderDto {
