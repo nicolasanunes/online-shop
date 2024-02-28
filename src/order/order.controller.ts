@@ -2,6 +2,7 @@ import {
   Body,
   Controller,
   Get,
+  Param,
   Post,
   UsePipes,
   ValidationPipe,
@@ -39,6 +40,16 @@ export class OrderController {
   async findAllOrders() {
     return (await this.orderService.findAllOrders()).map(
       (order) => new ListOrderDto(order),
+    );
+  }
+
+  @Roles(UserTypeEnum.Admin)
+  @Get('/:orderId')
+  async findOrderByOrderId(
+    @Param('orderId') orderId: number,
+  ): Promise<ListOrderDto> {
+    return new ListOrderDto(
+      (await this.orderService.findOrdersByUserId(undefined, orderId))[0],
     );
   }
 }
