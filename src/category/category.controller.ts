@@ -29,8 +29,6 @@ export class CategoryController {
   @Roles(UserTypeEnum.Admin, UserTypeEnum.User)
   @Get()
   async listAllCategories(): Promise<ListCategoryDto[]> {
-    return (await this.categoryService.listAllCategories()).map(
-      (category) => new ListCategoryDto(category),
-    );
+    return this.categoryService.listAllCategories();
   }
 }
