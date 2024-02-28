@@ -14,13 +14,25 @@ export class ProductService {
     private readonly categoryService: CategoryService,
   ) {}
 
-  async listAllProducts(productId?: number[]): Promise<ProductEntity[]> {
+  async listAllProducts(
+    productId?: number[],
+    isFindRelations?: boolean,
+  ): Promise<ProductEntity[]> {
     let findOptions = {};
 
     if (productId && productId.length > 0) {
       findOptions = {
         where: {
           id: In(productId),
+        },
+      };
+    }
+
+    if (isFindRelations) {
+      findOptions = {
+        ...findOptions,
+        relations: {
+          category: true,
         },
       };
     }

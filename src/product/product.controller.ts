@@ -34,7 +34,7 @@ export class ProductController {
   @Roles(UserTypeEnum.Admin, UserTypeEnum.User)
   @Get()
   async listAllProducts(): Promise<ListProductDto[]> {
-    return (await this.productService.listAllProducts()).map(
+    return (await this.productService.listAllProducts([], true)).map(
       (product) => new ListProductDto(product),
     );
   }
