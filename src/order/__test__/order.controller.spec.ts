@@ -64,7 +64,7 @@ describe('OrderController', () => {
     expect(spy.mock.calls.length).toEqual(1);
   });
 
-  it('should return order bn findOrderById', async () => {
+  it('should return order in findOrderById', async () => {
     const spy = jest.spyOn(orderService, 'findOrdersByUserId');
     const orders = await orderController.findOrderById(orderMock.id);
 
