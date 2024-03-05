@@ -6,9 +6,9 @@ import {
 } from '@nestjs/common';
 import { AxiosError } from 'axios';
 import { ListCepExternalDto } from './dto/list-cep-external.dto';
-import { CityService } from 'src/city/city.service';
+import { CityService } from '../city/city.service';
 import { ListCepDto } from './dto/list-cep.dto';
-import { CityEntity } from 'src/city/entities/city.entity';
+import { CityEntity } from '../city/entities/city.entity';
 
 @Injectable()
 export class CorreiosService {

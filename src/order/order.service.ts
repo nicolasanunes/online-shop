@@ -89,7 +89,11 @@ export class OrderService {
         id: orderId,
       },
       relations: {
-        address: true,
+        address: {
+          city: {
+            state: true,
+          },
+        },
         ordersProduct: {
           product: true,
         },

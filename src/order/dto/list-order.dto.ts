@@ -16,24 +16,24 @@ export class ListOrderDto {
   ordersProduct?: ListOrderProductDto[];
   amountProducts?: number;
 
-  constructor(order: OrderEntity) {
-    this.id = order.id;
-    this.date = order.date.toString();
-    this.userId = order.userId;
-    this.addressId = order.addressId;
-    this.paymentId = order.paymentId;
-    this.user = order.user ? new ListUserDto(order.user) : undefined;
-    this.address = order.address
-      ? new ListAddressDto(order.address)
+  constructor(order?: OrderEntity) {
+    this.id = order?.id;
+    this.date = order?.date.toString();
+    this.userId = order?.userId;
+    this.addressId = order?.addressId;
+    this.paymentId = order?.paymentId;
+    this.user = order?.user ? new ListUserDto(order?.user) : undefined;
+    this.address = order?.address
+      ? new ListAddressDto(order?.address)
       : undefined;
-    this.payment = order.payment
-      ? new ListPaymentDto(order.payment)
+    this.payment = order?.payment
+      ? new ListPaymentDto(order?.payment)
       : undefined;
-    this.ordersProduct = order.ordersProduct
-      ? order.ordersProduct.map(
+    this.ordersProduct = order?.ordersProduct
+      ? order?.ordersProduct.map(
           (orderProduct) => new ListOrderProductDto(orderProduct),
         )
       : undefined;
-    this.amountProducts = order.amountProducts;
+    this.amountProducts = order?.amountProducts;
   }
 }
