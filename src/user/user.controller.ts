@@ -21,7 +21,6 @@ import { UserTypeEnum } from './enum/user-type.enum';
 export class UserController {
   constructor(private readonly userService: UserService) {}
 
-  @Roles(UserTypeEnum.Admin, UserTypeEnum.User)
   @UsePipes(ValidationPipe)
   @Post()
   async createUser(@Body() createUser: CreateUserDto): Promise<UserEntity> {

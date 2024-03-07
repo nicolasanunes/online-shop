@@ -28,9 +28,9 @@ export class OrderProductService {
   async findAmountProductsByOrderId(
     orderId: number[],
   ): Promise<ListGroupOrderDto[]> {
-    return await this.orderProductRepository
+    return this.orderProductRepository
       .createQueryBuilder('order_product')
-      .select('order_product.product_id, COUNT(*) as total')
+      .select('order_product.order_id, COUNT(*) as total')
       .where('order_product.order_id IN (:...ids)', { ids: orderId })
       .groupBy('order_product.order_id')
       .getRawMany();

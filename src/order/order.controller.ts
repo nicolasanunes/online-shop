@@ -37,7 +37,7 @@ export class OrderController {
 
   @Roles(UserTypeEnum.Admin)
   @Get('/all')
-  async findAllOrders() {
+  async findAllOrders(): Promise<ListOrderDto[]> {
     return (await this.orderService.findAllOrders()).map(
       (order) => new ListOrderDto(order),
     );
