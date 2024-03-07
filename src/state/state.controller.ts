@@ -8,7 +8,7 @@ import { UserTypeEnum } from '../user/enum/user-type.enum';
 export class StateController {
   constructor(private readonly stateService: StateService) {}
 
-  @Roles(UserTypeEnum.Admin, UserTypeEnum.User)
+  @Roles(UserTypeEnum.Admin,  UserTypeEnum.Root, UserTypeEnum.User)
   @Get()
   async listAllStates(): Promise<StateEntity[]> {
     return this.stateService.listAllStates();

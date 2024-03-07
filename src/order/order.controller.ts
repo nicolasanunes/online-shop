@@ -19,7 +19,7 @@ import { ListOrderDto } from './dto/list-order.dto';
 export class OrderController {
   constructor(private readonly orderService: OrderService) {}
 
-  @Roles(UserTypeEnum.Admin, UserTypeEnum.User)
+  @Roles(UserTypeEnum.Admin,  UserTypeEnum.Root, UserTypeEnum.User)
   @Post()
   @UsePipes(ValidationPipe)
   async createOrder(
@@ -29,13 +29,13 @@ export class OrderController {
     return this.orderService.createOrder(createOrderDto, userId);
   }
 
-  @Roles(UserTypeEnum.Admin, UserTypeEnum.User)
+  @Roles(UserTypeEnum.Admin,  UserTypeEnum.Root, UserTypeEnum.User)
   @Get()
   async findOrdersByUserId(@UserId() userId: number) {
     return this.orderService.findOrdersByUserId(userId);
   }
 
-  @Roles(UserTypeEnum.Admin)
+  @Roles(UserTypeEnum.Admin,  UserTypeEnum.Root)
   @Get('/all')
   async findAllOrders(): Promise<ListOrderDto[]> {
     return (await this.orderService.findAllOrders()).map(
@@ -43,7 +43,7 @@ export class OrderController {
     );
   }
 
-  @Roles(UserTypeEnum.Admin)
+  @Roles(UserTypeEnum.Admin,  UserTypeEnum.Root)
   @Get('/:orderId')
   async findOrderById(
     @Param('orderId') orderId: number,

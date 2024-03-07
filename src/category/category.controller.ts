@@ -17,7 +17,7 @@ import { CreateCategoryDto } from './dto/create-category.dto';
 export class CategoryController {
   constructor(private readonly categoryService: CategoryService) {}
 
-  @Roles(UserTypeEnum.Admin)
+  @Roles(UserTypeEnum.Admin,  UserTypeEnum.Root)
   @UsePipes(ValidationPipe)
   @Post()
   async createCategory(
@@ -26,7 +26,7 @@ export class CategoryController {
     return this.categoryService.createCategory(createCategory);
   }
 
-  @Roles(UserTypeEnum.Admin, UserTypeEnum.User)
+  @Roles(UserTypeEnum.Admin,  UserTypeEnum.Root, UserTypeEnum.User)
   @Get()
   async listAllCategories(): Promise<ListCategoryDto[]> {
     return this.categoryService.listAllCategories();

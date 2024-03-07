@@ -22,7 +22,7 @@ import { UpdateProductInCartDto } from './dto/update-product-in-cart.dto';
 export class CartController {
   constructor(private readonly cartService: CartService) {}
 
-  @Roles(UserTypeEnum.Admin, UserTypeEnum.User)
+  @Roles(UserTypeEnum.Admin,  UserTypeEnum.Root, UserTypeEnum.User)
   @UsePipes(ValidationPipe)
   @Post()
   async insertProductInCart(
@@ -34,7 +34,7 @@ export class CartController {
     );
   }
 
-  @Roles(UserTypeEnum.Admin, UserTypeEnum.User)
+  @Roles(UserTypeEnum.Admin,  UserTypeEnum.Root, UserTypeEnum.User)
   @Get()
   async findCartByUserId(@UserId() userId: number): Promise<ListCartDto> {
     return new ListCartDto(
@@ -42,13 +42,13 @@ export class CartController {
     );
   }
 
-  @Roles(UserTypeEnum.Admin, UserTypeEnum.User)
+  @Roles(UserTypeEnum.Admin,  UserTypeEnum.Root, UserTypeEnum.User)
   @Delete()
   async clearCart(@UserId() userId: number): Promise<DeleteResult> {
     return this.cartService.clearCart(userId);
   }
 
-  @Roles(UserTypeEnum.Admin, UserTypeEnum.User)
+  @Roles(UserTypeEnum.Admin,  UserTypeEnum.Root, UserTypeEnum.User)
   @Delete('/product/:productId')
   async deleteProductCart(
     @Param('productId') productId: number,

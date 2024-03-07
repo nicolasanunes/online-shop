@@ -18,7 +18,7 @@ import { ListAddressDto } from './dto/list-address.dto';
 export class AddressController {
   constructor(private readonly addressService: AddressService) {}
 
-  @Roles(UserTypeEnum.User, UserTypeEnum.Admin)
+  @Roles(UserTypeEnum.User, UserTypeEnum.Admin,  UserTypeEnum.Root)
   @UsePipes(ValidationPipe)
   @Post()
   async createAddress(
@@ -28,7 +28,7 @@ export class AddressController {
     return this.addressService.createAddress(createAddressDto, userId);
   }
 
-  @Roles(UserTypeEnum.User, UserTypeEnum.Admin)
+  @Roles(UserTypeEnum.User, UserTypeEnum.Admin,  UserTypeEnum.Root)
   @Get()
   async listAddressByUserId(
     @UserId() userId: number,
