@@ -22,7 +22,7 @@ import { UpdateProductDto } from './dto/update-product.dto';
 export class ProductController {
   constructor(private readonly productService: ProductService) {}
 
-  @Roles(UserTypeEnum.Admin,  UserTypeEnum.Root)
+  @Roles(UserTypeEnum.Admin, UserTypeEnum.Root)
   @UsePipes(ValidationPipe)
   @Post()
   async createProduct(
@@ -31,7 +31,7 @@ export class ProductController {
     return this.productService.createProduct(createProduct);
   }
 
-  @Roles(UserTypeEnum.Admin,  UserTypeEnum.Root, UserTypeEnum.User)
+  @Roles(UserTypeEnum.Admin, UserTypeEnum.Root, UserTypeEnum.User)
   @Get()
   async listAllProducts(): Promise<ListProductDto[]> {
     return (await this.productService.listAllProducts([], true)).map(
@@ -39,7 +39,17 @@ export class ProductController {
     );
   }
 
-  @Roles(UserTypeEnum.Admin,  UserTypeEnum.Root)
+  @Roles(UserTypeEnum.Admin, UserTypeEnum.Root, UserTypeEnum.User)
+  @Get('/:productId')
+  async findProductById(
+    @Param('productId') productId: number,
+  ): Promise<ListProductDto> {
+    return new ListProductDto(
+      await this.productService.findProductById(productId, true),
+    );
+  }
+
+  @Roles(UserTypeEnum.Admin, UserTypeEnum.Root)
   @UsePipes(ValidationPipe)
   @Put('/:productId')
   async updateProduct(
@@ -49,7 +59,7 @@ export class ProductController {
     return this.productService.updateProduct(updateProduct, productId);
   }
 
-  @Roles(UserTypeEnum.Admin,  UserTypeEnum.Root)
+  @Roles(UserTypeEnum.Admin, UserTypeEnum.Root)
   @Delete('/:productId')
   async deleteProduct(
     @Param('productId') productId: number,
