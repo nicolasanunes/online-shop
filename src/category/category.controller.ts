@@ -1,7 +1,9 @@
 import {
   Body,
   Controller,
+  Delete,
   Get,
+  Param,
   Post,
   UsePipes,
   ValidationPipe,
@@ -12,12 +14,13 @@ import { Roles } from '../decorator/role.decorator';
 import { UserTypeEnum } from '../user/enum/user-type.enum';
 import { CategoryEntity } from './entities/category.entity';
 import { CreateCategoryDto } from './dto/create-category.dto';
+import { DeleteResult } from 'typeorm';
 
 @Controller('category')
 export class CategoryController {
   constructor(private readonly categoryService: CategoryService) {}
 
-  @Roles(UserTypeEnum.Admin,  UserTypeEnum.Root)
+  @Roles(UserTypeEnum.Admin, UserTypeEnum.Root)
   @UsePipes(ValidationPipe)
   @Post()
   async createCategory(
@@ -26,9 +29,17 @@ export class CategoryController {
     return this.categoryService.createCategory(createCategory);
   }
 
-  @Roles(UserTypeEnum.Admin,  UserTypeEnum.Root, UserTypeEnum.User)
+  @Roles(UserTypeEnum.Admin, UserTypeEnum.Root, UserTypeEnum.User)
   @Get()
   async listAllCategories(): Promise<ListCategoryDto[]> {
     return this.categoryService.listAllCategories();
+  }
+
+  @Roles(UserTypeEnum.Admin, UserTypeEnum.Root)
+  @Delete(':categoryId')
+  async deleteCategory(
+    @Param('categoryId') categoryId: number,
+  ): Promise<DeleteResult> {
+    return this.categoryService.deleteCategory(categoryId);
   }
 }
